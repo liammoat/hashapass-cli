@@ -27,6 +27,17 @@ If you want to configure the length of the output:
 hashapass -l 14
 ```
 
+### Secure Mode
+Opting to use 'Secure Mode' means the CLI will prompt you for two passwords. The process for this is:
+```
+var normalResult = hashapass(parameter, master1);
+var secureResult = hashapass(normalResult, master2);
+```
+To enable this mode:
+```
+hashapass -s
+```
+
 ## License
 Copyright (c) 2015 Liam Moat
 

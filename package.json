@@ -1,6 +1,6 @@
 {
   "name": "hashapass-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generate hashapass.com compatible passwords with this command line tool",
   "author": "Liam Moat <contact@liammoat.com>",
   "bin": {

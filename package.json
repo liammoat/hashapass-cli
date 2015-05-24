@@ -1,0 +1,34 @@
+{
+  "name": "hashapass-cli",
+  "version": "1.0.0",
+  "description": "A CLI for generating hashapass.com compatible passwords",
+  "author": "Liam Moat <contact@liammoat.com>",
+  "bin": {
+    "hashapass": "./bin/hashapass"
+  },
+  "url": "https://bitbucket.org/liammoat/hashapass-cli",
+  "homepage": "https://bitbucket.org/liammoat/hashapass-cli",
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.org/liammoat/hashapass-cli.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/liammoat/hashapass-cli/issues"
+  },
+  "keywords": [
+    "hashapass",
+    "password",
+    "cli"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "commander": "^2.8.1",
+    "hashapass": "^1.0.1",
+    "inquirer": "^0.8.5"
+  },
+  "preferGlobal": true,
+  "license": {
+    "type": "MIT",
+    "url": "https://bitbucket.org/liammoat/hashapass-cli/raw/master/LICENCE"
+  }
+}

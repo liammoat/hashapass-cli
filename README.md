@@ -1,5 +1,5 @@
 # Hashapass CLI
-A CLI for generating [hashapass.com](http://hashapass.com/) compatible passwords
+Generate [hashapass.com](http://hashapass.com/) compatible passwords with this command line tool.
 
 > **Note:** This tool is not affiliated with [hashapass.com](http://hashapass.com/). I have created it as a tool for generating compatible passwords.
 

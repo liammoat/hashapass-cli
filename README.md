@@ -26,6 +26,7 @@ If you want to configure the length of the output:
 ```
 hashapass -l 14
 ```
+> **Note:** By default the length is 8 characters. By changing this, the password will no longer be compatible with [hashapass.com](http://hashapass.com/).
 
 ### Secure Mode
 Opting to use 'Secure Mode' means the CLI will prompt you for two passwords. The process for this is:

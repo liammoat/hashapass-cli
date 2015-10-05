@@ -1,16 +1,16 @@
 var program = require('commander');
 var inquirer = require('inquirer');
-var hashapass = require('hashapass');
+var hashapass = require('hashapass-core');
 var chalk = require('chalk');
 
-var package = require('../package');
+var pkg = require('../package');
 
 var green = chalk.green;
 var bold = chalk.bold;
 
 program
-  .version(package.version)
-  .description(package.description)
+  .version(pkg.version)
+  .description(pkg.description)
   .option('-l, --length <length>', 'Set the length of the generated result', 8)
   .option('-s, --secure', 'Provide two master passwords for an extra secure result');
 
